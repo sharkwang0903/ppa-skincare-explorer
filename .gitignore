@@ -1,0 +1,22 @@
+# 只納入問卷網站執行必需的檔案；其他檔案保留在本機。
+# 適用於 Git / GitHub Desktop；GitHub 網頁手動上傳不套用此檔。
+/*
+!/.gitignore
+!/website/
+
+/website/*
+!/website/index.html
+!/website/styles.css
+!/website/js/
+!/website/assets/
+
+/website/js/*
+!/website/js/app.js
+!/website/js/config.js
+!/website/js/events.js
+!/website/js/questions.js
+!/website/js/rules.js
+!/website/js/storage.js
+
+/website/assets/*
+!/website/assets/ppa-product-retouched.png
