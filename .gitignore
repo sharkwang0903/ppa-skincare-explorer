@@ -2,6 +2,7 @@
 # 適用於 Git / GitHub Desktop；GitHub 網頁手動上傳不套用此檔。
 /*
 !/.gitignore
+!/index.html
 !/website/
 
 /website/*
